@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "module": "es2015",
+    "moduleResolution": "Node",
+    "target": "es5",
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*", "node_modules/*"]
+    },
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "files": [
+    "./declarations.d.ts"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}
